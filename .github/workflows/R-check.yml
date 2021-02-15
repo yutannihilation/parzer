@@ -1,7 +1,4 @@
-on:
-  push:
-    branch:
-      - tmp
+on: [push, pull_request]
 
 name: R-check
 
